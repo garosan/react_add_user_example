@@ -4,7 +4,7 @@ import Card from '../UI/Card';
 import Button from '../UI/Button';
 import classes from './AddUser.module.css';
 
-const AddUser = () => {
+const AddUser = (props) => {
   const [username, setUsername] = useState('');
   const [age, setAge] = useState('');
 
@@ -16,8 +16,7 @@ const AddUser = () => {
     if (parseInt(age) < 1) {
       return;
     }
-    console.log('age', age);
-    console.log('username', username);
+    props.onAddUser(username, age);
     setUsername('');
     setAge('');
   };
