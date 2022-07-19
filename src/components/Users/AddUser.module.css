@@ -1,5 +1,6 @@
 .input {
   margin: 2rem auto;
+  margin-top: 6rem;
   padding: 1rem;
   width: 90%;
   max-width: 40rem;
@@ -22,5 +23,5 @@
 
 .input input:focus {
   outline: none;
-  border-color: #4f005f;
+  border-color: darkblue;
 }
