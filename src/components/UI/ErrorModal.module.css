@@ -18,7 +18,7 @@
 }
 
 .header {
-  background: #4f005f;
+  background: linear-gradient(90deg, hsla(242, 90%, 55%, 0.5) 0%, hsla(204, 85%, 69%, 0.5) 100%);
   padding: 1rem;
 }
 

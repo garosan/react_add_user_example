@@ -1,17 +1,19 @@
 .button {
   font: inherit;
-  border-color: #fff;
-  background: linear-gradient(90deg, hsla(242, 90%, 55%, 0.5) 0%, hsla(204, 85%, 69%, 0.5) 100%);
+  border: 1px solid #6dbdf3;
+  background: linear-gradient(90deg, hsla(242, 90%, 55%, 0.5) 0%, #6dbdf380 100%);
   color: white;
   padding: 0.6rem 1.7rem;
   cursor: pointer;
   border-radius: 50px;
+  border-style: none;
 }
 
 .button:hover,
 .button:active {
   border: 1px solid #6fbef3;
   background: linear-gradient(90deg, hsla(242, 90%, 55%, 1) 0%, hsla(204, 85%, 69%, 1) 100%);
+  border-style: none;
 }
 
 .button:focus {
